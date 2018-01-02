@@ -1,3 +1,46 @@
+body {
+    background-color: #336699;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the content */
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
 input[type=text] {
     width: 70px;
     -webkit-transition: width 0.4s ease-in-out;
@@ -10,14 +53,16 @@ table.toprow {
   border: 1px solid #555555;
   background-color: #555555;
   width: 500px;
-  text-align: center;
-  border-collapse: collapse;
+  text-align: center; 
+  border-radius: 10px;
+
 }
 table.steelBlueCols {
   border: 4px solid #555555;
   background-color: #555555;
   width: 500px;
   text-align: center;
+  box-shadow: 10px 10px 5px grey;
   border-collapse: collapse;
 }
 table.steelBlueCols td, table.steelBlueCols th {
